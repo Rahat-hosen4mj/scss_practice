@@ -1,0 +1,12 @@
+// reset code 
+@forward "./base/index.scss";
+@use "./util/index" as var;
+body{
+    background-color: #c0c0c0;
+}
+header{
+    background-color: var.$headerBg;
+}
+main{
+    background-color: var.$mainBg;
+}
